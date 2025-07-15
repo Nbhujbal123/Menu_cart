@@ -45,9 +45,9 @@ export function ExploreMenu() {
                 <img onClick={nextclick} className="navbtn" id="right" src="/ast/next.svg" height="30px" />
             </div>
 
-            <div className="hrparent">
+            {/* <div className="hrparent">
                 <hr className="horizantalLine"/>
-            </div>
+            </div> */}  
             <Filtermenu />
         </div>
     );
