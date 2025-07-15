@@ -1,0 +1,13 @@
+.cart-body{
+    background-color: rgb(228, 195, 170);
+    padding:10px;
+}
+.cart{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:tomato;
+    color:white;
+    padding:10px 5px;
+    margin:5px;
+}

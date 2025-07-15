@@ -1,0 +1,120 @@
+.explore-menu-wrapper {
+    position: sticky;
+    top: 0px;
+    z-index: 11;
+    background-color: white;
+    width: 90vw;
+    /* border:2px solid; */
+}
+
+.explore-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* position: relative; */
+    position: sticky;
+    top: 100px;
+    width:100%;
+    align-items: center;
+}
+
+.explore-menu h1 {
+    font-size: 2.5rem;
+    margin: 20px 0px;
+}
+
+.explore-menu p {
+    font-size: 1.3em;
+}
+
+.explore-menu-list {
+    display: flex;
+    gap: 30px;
+    overflow: auto;
+    margin: 20px 0px;
+    /* background-color: red; */
+}
+
+.explore-menu-list-items img {
+    cursor: pointer;
+    width: 9.5vw;
+    border-radius: 60px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.menu-names {
+    display: flex;
+    justify-content: center;
+    color: rgb(71, 62, 62);
+    font-size: bolder;
+    margin: 5px;
+    font-size: 12.1px;
+    /* border:1px solid; */
+}
+
+.explore-menu-list::-webkit-scrollbar {
+    display: none;
+}
+
+.hrparent {
+    /* background-color: rgb(237, 36, 36); */
+    /* position: sticky; */
+    top: 230px;
+    margin-bottom: 10px;
+    /* background-color: white; */
+    height: 20px;
+    /* margin-top:0px;
+    padding-top:0px; */
+    position: sticky;
+    z-index: 11;
+    /* border:2px solid red; */
+    width:90%;
+}
+
+.hrparent .horizantalLine {
+    width: 90%;
+    height: 5px;
+    /* margin: auto; */
+    /* height:2px; */
+    background-color: gray;
+    border-radius: 5px;
+    /* margin-bottom:10px; */
+    /* position:sticky; */
+    /* top:200px; */
+    /* z-index:11; */
+}
+
+.navbtn {
+    /* height:50px;
+    width:50px; */
+    image-resolution: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid gray;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 60px;
+    filter: invert(1);
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+.explore-menu-wrapper.navbtn:hover {
+    background-color: rgb(100, 95, 95);
+}
+
+#left {
+    position: absolute;
+    top: 25px;
+    left: -20px;
+}
+
+#right {
+    position: absolute;
+    top: 25px;
+    right: -20px;
+}
