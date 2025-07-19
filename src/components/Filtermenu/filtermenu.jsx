@@ -46,8 +46,13 @@ export function Filtermenu() {
 
               <span className="box-name">
                 <div className="item-name">{item.name}</div>
-                <p className="item-description">{item.description}</p>
-                <div className="item-price">₹ {item.price}</div>
+                {/* <p className="item-description">{item.description}</p> */}
+                <div className="item-price"> <b>Single </b> ₹ {item.price}</div>
+
+                {item.Fullprice && (
+                <div className="item-price"> <b>Full </b> ₹ {item.Fullprice}</div>
+                )}
+
               </span>
 
             </div>
@@ -76,7 +81,13 @@ export function Filtermenu() {
                   <span className="box-names">
                     <div className="item-name">{selecteCatItem.name}</div>
                     <p className="item-description">{selecteCatItem.description}</p>
-                    <div className="item-price">₹ {selecteCatItem.price}</div>
+                    
+                  <div className="item-price"> <b>Single </b> ₹ {selecteCatItem.price}</div>
+
+                {selecteCatItem.Fullprice && (
+                <div className="item-price"> <b>Full </b> ₹ {selecteCatItem.Fullprice}</div>
+                )}
+
                   </span>
 
                   {/* item itmage */}

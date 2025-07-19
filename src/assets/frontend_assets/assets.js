@@ -14,6 +14,7 @@ import menu_9 from './menu_9.png'
 import menu_10 from './menu_10.png'
 import menu_11 from './menu_11.png'
 import menu_12 from './menu_12.png'
+import menu_13 from './menu_13.png'
 
 
 
@@ -65,182 +66,212 @@ export const menu_list = [
     {
         menu_name: "MILKSHAKE'S",
         menu_image: menu_12
+    },
+    {
+        menu_name: "TEA & COFFEE",
+        menu_image: menu_13  
     }
+  
 ]
 
 export const food_list = [{
   "_id": "1",
   "name": "Veg Noodles",
   "image": "/ast/Veg Noodles.png",
-  "price": 130,
+  "price": 69,
+  "Fullprice":130,
   "category": "NOODLES"
 },
 {
   "_id": "2",
   "name": "Manchurian Noodles",
   "image": "/ast/Veg Manchurian Noodles.png",
-  "price": 150,
+  "price": 75,
+  "Fullprice":150,
   "category": "NOODLES"
 },
 {
   "_id": "3",
   "name": " Schezwan Veg Noodles",
   "image": "/ast/Schezwan Veg Noodles.png",
-  "price": 155,
+  "price": 79,
+  "Fullprice":155,
   "category": "NOODLES"
 },
 {
   "_id": "4",
   "name": " Schezwan Manchurian Noodles",
   "image": "/ast/Schezwan Manchurian Noodles.png",
-  "price": 160,
+  "price": 89,
+  "Fullprice":160,
   "category": "NOODLES"
 },
 {
   "_id": "5",
   "name": " Egg Noodles",
   "image": "/ast/Egg Noodles.png",
-  "price": 150,
+  "price": 80,
+  "Fullprice":150,
   "category": "NOODLES"
 },
 {
   "_id": "6",
   "name": "Manchurian Egg Noodles",
   "image": "/ast/Manchurian Egg Noodles.png",
-  "price": 170,
+  "price": 90,
+  "Fullprice":170,
   "category": "NOODLES"
 },
 {
   "_id": "7",
   "name": "Schezwan Egg Noodles",
   "image": "/ast/Schezwan Egg Noodles.png",
-  "price": 160,
+  "price": 85,
+  "Fullprice":160,
   "category": "NOODLES"
 },
 {
   "_id": "8",
   "name": "Schezwan Manchurian Egg Noodles",
   "image": "/ast/Schezwan Manchurian Egg Noodles.png",
-  "price": 180,
+  "price": 95,
+  "Fullprice":180,
   "category": "NOODLES"
 },
 {
   "_id": "9",
   "name": "Chicken Noodles",
   "image": "/ast/Chicken Noodles.png",
-  "price": 170,
+  "price": 95,
+  "Fullprice":170,
   "category": "NOODLES"
 },
 {
   "_id": "10",
   "name": "Manchurian Chicken Noodles",
   "image": "ast/Manchurian Chicken Noodles.png",
-  "price": 190,
+  "price": 105,
+  "Fullprice":190,
   "category": "NOODLES"
 },
 {
   "_id": "11",
-  "name": "JSchezwan Chicken Noodles",
+  "name": "Schezwan Chicken Noodles",
   "image": "/ast/Schezwan Chicken Noodles.png",
-  "price": 180,
+  "price": 105,
+  "Fullprice":180,
   "category": "NOODLES"
 },
 {
   "_id": "12",
   "name": "Schezwan Manchurian Chicken Noodles",
   "image": "/ast/Schezwan Manchurian Chicken Noodles.png",
-  "price": 200,
+  "price": 110,
+  "Fullprice":200,
   "category": "NOODLES"
 },
 {
   "_id": "13",
   "name": "Egg Fried Rice",
   "image": "/ast/Egg Fried Rice.png",
-  "price": 160,
+  "price": 85,
+  "Fullprice":160,
   "category": "FRIED RICE"
 },
 {
   "_id": "14",
   "name": "Manchurian Egg Fried Rice",
   "image": "/ast/Manchurian Egg Fried Rice.png",
-  "price": 170,
+  "price": 90,
+  "Fullprice":170,
   "category": "FRIED RICE"
 },
 {
   "_id": "15",
   "name": "Schezwan Egg Fried Rice",
   "image": "/ast/Schezwan Egg Fried Rice.png",
-  "price": 170,
+  "price": 90,
+  "Fullprice":170,
   "category": "FRIED RICE"
 },
 {
   "_id": "16",
   "name": "Ginger Egg Fried Rice",
   "image": "/ast/Ginger Egg Fried Rice.png",
-  "price": 170,
+  "price": 90,
+  "Fullprice":170,
   "category": "FRIED RICE"
 },
 {
   "_id": "17",
   "name": "Schezwan Manchurian Egg Fried Rice",
   "image": "/ast/Schezwan Manchurian Egg Fried Rice.png",
-  "price": 180,
+  "price": 99,
+  "Fullprice":180,
   "category": "FRIED RICE"
 },
 {
   "_id": "18",
   "name": "Chicken Fried Rice",
   "image": "/ast/Chicken Fried Rice.png",
-  "price": 180,
+  "price": 105,
+  "Fullprice":180,
   "category": "FRIED RICE"
 },
 {
   "_id": "19",
   "name": "Manchurian Chicken Fried Rice",
   "image": "/ast/Manchurian Chicken Fried Rice.png",
-  "price": 190,
+  "price": 105,
+  "Fullprice":190,
   "category": "FRIED RICE"
 },
 {
   "_id": "20",
   "name": "Schezwan Chicken Fried Rice",
   "image": "/ast/Schezwan Chicken Fried Rice.png",
-  "price": 190,
+  "price": 105,
+  "Fullprice":190,
   "category": "FRIED RICE"
 },
 {
   "_id": "21",
   "name": "Schezwan Manchurian Chicken Fried Rice",
   "image": "/ast/Schezwan Manchurian Chicken Fried Rice.png",
-  "price": 200,
+  "price": 110,
+  "Fullprice":200,
   "category": "FRIED RICE"
 },
 {
   "_id": "22",
   "name": "Ginger Chicken Fried Rice",
   "image": "/ast/Ginger Chicken Fried Rice.png",
-  "price": 190,
+  "price": 105,
+  "Fullprice":190,
   "category": "FEIED RICE"
 },
 {
   "_id": "23",
   "name": "Veg Manchurian",
   "image": "/ast/Veg Manchurian.png",
-  "price": 135,
+  "price": 70,
+  "Fullprice":135,
   "category": "MANCHURIA"
 },
 {
   "_id": "24",
   "name": "Chicken Manchuria",
   "image": "/ast/Chicken Manchuria.png",
-  "price": 150,
+  "price": 80,
+  "Fullprice":150,
   "category": "MANCHURIA"
 },
 {
   "_id": "25",
   "name": "Chilli Chicken",
   "image": "/ast/Chilli Chicken.png",
-  "price": 180,
+  "price": 120,
+  "Fullprice":190,
   "category": "MANCHURIA"
 },
 {
@@ -417,4 +448,120 @@ export const food_list = [{
   "image": "/ast/Chocolate.png",
   "price": 69,
   "category": "MILKSHAKE'S"
-}]
+},{
+  "_id":"51",
+  "name":"Tea",
+  "image":"/ast/Tea.png",
+  "price":10,
+  "category": "TEA & COFFEE"
+},
+{
+  "_id":"52",
+  "name":"Dhum Tea",
+  "image":"/ast/Dhum Tea.png",
+  "price":15,
+  "category": "TEA & COFFEE"
+},
+{
+  "_id":"53",
+  "name":"Ginger Tea",
+  "image":"/ast/Ginger Tea.png",
+  "price":15,
+  "category": "TEA & COFFEE"
+},{
+  "_id":"54",
+  "name":"Boost",
+  "image":"/ast/Boost.png",
+  "price":20,
+  "category": "TEA & COFFEE"
+},{
+  "_id":"55",
+  "name":"Horlicks",
+  "image":"/ast/Horlicks.png",
+  "price":20,
+  "category": "TEA & COFFEE"
+},{
+  "_id":"56",
+  "name":"Badam Tea",
+  "image":"/ast/Badam Tea.png",
+  "price":20,
+  "category": "TEA & COFFEE"
+},{
+  "_id":"57",
+  "name":"Badam Milk",
+  "image":"/ast/Badam Milk.png",
+  "price":20,
+  "category": "TEA & COFFEE"
+},{
+  "_id":"58",
+  "name":"Lemon Tea",
+  "image":"/ast/Lemon Tea.png",
+  "price":20,
+  "category": "TEA & COFFEE"
+},{
+  "_id":"59",
+  "name":"Black Coffee",
+  "image":"/ast/Black Coffee.png",
+  "price":20,
+  "category": "TEA & COFFEE"
+},{
+  "_id":"60",
+  "name":"coffee",
+  "image":"/ast/Coffee.png",
+  "price":15,
+  "category": "TEA & COFFEE"
+},{
+  "_id":"61",
+  "name":"Decoction",
+  "image":"/ast/Decoction.png",
+  "price":15,
+  "category": "TEA & COFFEE"
+},{
+  "_id":"62",
+  "name":"Rose Milk",
+  "image":"/ast/Rose Milk.png",
+  "price":20,
+  "category": "TEA & COFFEE"
+},
+{
+  "_id": "63",
+  "name": "Veg Fried Rice",
+  "image": "/ast/Veg Fried Rice.png",
+  "price": 80,
+  "Fullprice":150,
+  "category": "FRIED RICE"
+},
+{
+  "_id": "64",
+  "name": "Jeera Rice",
+  "image": "/ast/Jeera Rice.png",
+  "price": 85,
+  "Fullprice":160,
+  "category": "FRIED RICE"
+},
+{
+  "_id": "65",
+  "name": "Manchurian Fried Rice",
+  "image": "/ast/Manchurian Fried Rice.png",
+  "price": 85,
+  "Fullprice":160,
+  "category": "FRIED RICE"
+},
+{
+  "_id": "66",
+  "name": "Schezwan Fried Rice",
+  "image": "/ast/Schezwan Fried Rice.png",
+  "price": 85,
+  "Fullprice":160,
+  "category": "FRIED RICE"
+},
+{
+  "_id": "67",
+  "name": "Schezwan Manchurian Fried Rice",
+  "image": "/ast/Schezwan Manchurian Fried Rice.png",
+  "price": 90,
+  "Fullprice":170,
+  "category": "FRIED RICE"
+}
+
+]

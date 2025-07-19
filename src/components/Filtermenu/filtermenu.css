@@ -36,13 +36,15 @@
   font-weight: bold;
 }
 .item-box .item-price{
-  background-color:orange;
+  background-color:green;
   /* color:white; */
   font-size:bolder;
-  width:50px;
+  width:80px;
   padding:3px;
   border-radius:6px;
-  
+  font-size: 12px;
+  margin:2px;
+  color:white;
 }
 
 .item-box img {
