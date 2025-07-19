@@ -34,24 +34,39 @@
     z-index:1;
 
 }
-
-.header-content h2{
-    font-size:2.9em;
+.heading span{
+    position:absolute;
+    
+}
+.heading{
+    /* font-size:2em; */
     /* margin:30px 0px; */
     /* border:2px solid; */
+    display:flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding:10px 0px;
-     background-color: #d9f1da;
+     /* background-color: yellow; */
     border:none;
+    
     border-radius: 20px;
     font-family: 'Poppins' !important;
     text-align: center;
 }
+.heading h2{
+    font-weight: bolder;
+    /* color:rgb(58, 7, 7,1); */
+    color:black;
+    text-shadow: 4px 5px 8px rgb(134, 134, 227);
+    /* background-color: red; */
+    font-family: 'Poppins' !important;
+    font-size: 3.3em;
+}
 .header-content p{
-    font-size:1.2em;
+    font-size:1.3em;
     margin:10px 0px;
     font-weight: bold;
     text-align: center;
-    margin:5px 0px
+    margin:10px 0px
 }
 .header-content button{
     border:none;
