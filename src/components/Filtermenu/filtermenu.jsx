@@ -87,11 +87,14 @@ export function Filtermenu() {
                     <div className="item-name">{selecteCatItem.name}</div>
                     <p className="item-description">{selecteCatItem.description}</p>
 
-                    <div className="item-price"> <b>Single </b> ₹ {selecteCatItem.price}</div>
-
-                    {selecteCatItem.Fullprice && (
-                      <div className="item-price"> <b>Full </b> ₹ {selecteCatItem.Fullprice}</div>
-                    )}
+                    {selecteCatItem.Fullprice ? (
+                  <>
+                    <div className="item-price">Single ₹ {selecteCatItem.price}</div>
+                    <div className="item-price">Full ₹ {selecteCatItem.Fullprice}</div>
+                  </>
+                ) : (
+                  <div className="item-price">₹ {selecteCatItem.price}</div>
+                )}
 
                   </span>
 
