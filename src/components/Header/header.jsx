@@ -31,7 +31,8 @@ export const Header=()=>{
         <div className="main-header" >
             <div className="header-content">
                 <h2>VIJAYA LAXMI FOOD COURT</h2>
-                <p>Let's get your in the time no wait no get</p>
+                <p>"Your Hunger, Our Priority - Let's Serve!"</p>
+                <p><span><img src="/ast/phone.svg" alt="" width="15px"/></span><span>9032785569 - </span> <span> 7013382707</span></p>
                 {/* <button onClick={viewMenuclick}> View Menu </button> */}
             </div>
         </div>

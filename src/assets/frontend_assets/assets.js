@@ -60,7 +60,7 @@ export const menu_list = [
         menu_image: menu_10
     },
     {
-        menu_name: "MOJITOS",
+        menu_name: "MOCK TAILS",
         menu_image: menu_11
     },
     {
@@ -362,91 +362,91 @@ export const food_list = [{
   "_id": "38",
   "name": "Maggie",
   "image": "/ast/Maggie.png",
-  "price": 49,
+  "price": 50,
   "category": "MAGGIE"
 },
 {
   "_id": "39",
-  "name": " Egg Maggie",
+  "name": "Egg Maggie",
   "image": "/ast/Egg Maggie.png",
-  "price": 49,
+  "price": 60,
   "category": "MAGGIE"
 },
 {
   "_id": "40",
   "name": "Egg Cheese Maggie",
   "image": "/ast/Egg Cheese Maggie.png",
-  "price": 69,
+  "price": 80,
   "category": "MAGGIE"
 },
 {
   "_id": "41",
   "name": "Lime Mint",
   "image": "/ast/Lime Mint.png",
-  "price": 49,
-  "category": "MOJITOS"
+  "price": 60,
+  "category": "MOCK TAILS"
 },
 {
   "_id": "42",
-  "name": "Blue Curacao",
+  "name": "Blue Lagoon",
   "image": "/ast/Blue Curacao.png",
-  "price": 49,
-  "category": "MOJITOS"
+  "price": 60,
+  "category": "MOCK TAILS"
 },
 {
   "_id": "43",
   "name": "Strawberry",
   "image": "/ast/Strawberry.png",
-  "price": 69,
+  "price": 80,
   "category": "MILKSHAKE'S"
 },
 {
   "_id": "44",
   "name": "Butterscotch",
   "image": "/ast/Butterscotch.png",
-  "price": 69,
+  "price": 80,
   "category": "MILKSHAKE'S"
 },
 {
   "_id": "45",
   "name": "Pineapple",
   "image": "/ast/Pineapple.png",
-  "price": 69,
+  "price": 80,
   "category": "MILKSHAKE'S"
 },
 {
   "_id": "46",
   "name": "Blueberry",
   "image": "/ast/Blueberry.png",
-  "price": 69,
+  "price": 80,
   "category": "MILKSHAKE'S"
 },
 {
   "_id": "47",
   "name": "Blackberry",
   "image": "/ast/Blackberry.png",
-  "price": 69,
+  "price": 80,
   "category": "MILKSHAKE'S"
 },
 {
   "_id": "48",
   "name": "Oreo",
   "image": "/ast/Oreo.png",
-  "price": 69,
+  "price": 80,
   "category": "MILKSHAKE'S"
 },
 {
   "_id": "49",
   "name": "Rose Milk",
   "image": "/ast/Rose Milk.png",
-  "price": 69,
+  "price": 80,
   "category": "MILKSHAKE'S"
 },
 {
   "_id": "50",
   "name": "Chocolate",
   "image": "/ast/Chocolate.png",
-  "price": 69,
+  "price": 80,
   "category": "MILKSHAKE'S"
 },{
   "_id":"51",
@@ -562,6 +562,13 @@ export const food_list = [{
   "price": 90,
   "Fullprice":170,
   "category": "FRIED RICE"
+},
+{
+  "_id": "68",
+  "name": "Cheese French Fries",
+  "image": "/ast/Cheese French Fries.png",
+  "price":70,
+  "category": "FRENCH FRIES"
 }
 
 ]
